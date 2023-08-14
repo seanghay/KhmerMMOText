@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "magic-string": "^0.30.2"
+  }
+}

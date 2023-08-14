@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Khmer MMO</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Kantumruy Pro", system-ui, -apple-system,
+					BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+					"Open Sans", "Helvetica Neue", sans-serif;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="container">
+			<h1 style="font-family: 'Kantumruy Pro'">ជីវិត MMO</h1>
+			<label for="input">អក្សខ្មែរត្រឹមត្រូវ</label>
+			<textarea name="input" id="input" cols="30" rows="5"></textarea>
+			<label for="dot">ចំនួនចំណុច</label>
+			<input type="range" max="100" min="0" value="1" id="dot" />
+			<label for="output">អក្សខ្មែរបែប MMO</label>
+			<textarea
+				readonly
+				name="output"
+				id="output"
+				cols="30"
+				rows="5"
+			></textarea>
+		</main>
+		<script type="module" src="./app.js"></script>
+	</body>
+</html>
